@@ -107,6 +107,11 @@ body {
 
 }
 
+.nav-btn{
+
+    display: none;
+}
+
 .links{
 
     position: absolute ;
