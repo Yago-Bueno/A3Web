@@ -21,20 +21,21 @@
 }
 
 /* Reset de estilos */
-body, h1, h2, h3, p, ul {
+body,
+h1,
+h2,
+h3,
+p,
+ul {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
 
     margin-top: 2rem;
-    position:relative;
-    left:25%
-
-
-
-
+    position: relative;
+    left: 25%
 }
 
 /* Estilos gerais */
@@ -61,6 +62,7 @@ body {
 }
 
 .modulo, .modNa {
+    position: relative;
     flex: 0 1 300px;
     background-color: #fff;
     border: 1px solid #ccc;
@@ -68,35 +70,114 @@ body {
     margin-bottom: 3rem;
 }
 
+.titulos{
+
+    position: relative;
+    left:0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+
+
+}
+
+.texto{
+    position: relative;
+    top: 20px;
+    left:0;
+    width: 100%;
+    text-align: justify;
+    height: 220px;
+    padding-bottom: 10px;
+}
+
+.images {
+
+    border: #333 solid 1px;
+    position: relative;
+
+    width: 248px;
+    height: 248px;
+    object-fit: cover;
+}
+#img2 {
+
+    top: 30px;
+
+}
+#img4, #img5, #img6 {
+
+    bottom: 50px;
+
+}
+
+.links{
+
+    position: absolute ;
+    bottom: 10px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+
+
+}
+
+
 .modulo h3, .modNa h3 {
     margin-bottom: 10px;
 }
 
-.modulo p, .modNa p{
+.modulo p, .modNa p {
     margin-bottom: 15px;
 }
 
-.modulo img, .modNa img {
+.modulo img {
     max-width: 100%;
     height: auto;
     display: block;
     margin: 20px;
 }
 
-.modNa img{
+.modNa img {
 
-    position:relative;
+    max-width: 100%;
+    height: auto;
+    display: block;
     margin: 20px;
-
-
+    /* position: relative;
+    top: 25% */
 }
 
 
-.modNa:hover{
-transition: 0.4s;
-background-color: #3333335e;
 
+.modNa:hover {
 
+    transition: 0.4s;
+    background-color: #3333335e;
+
+}
+#mod3:hover  {
+
+    transition: 0.4s;
+    background-color: rgba(186, 222, 125, 0.488)
+
+}
+#mod4:hover, #mod5:hover {
+
+    transition: 0.4s;
+    background-color: #3333335e;
 
 }
 
+#img3 {
+
+    cursor: pointer;
+
+}
+
+.clicker:hover {
+
+    max-width: 100%;
+    height: auto;
+
+}

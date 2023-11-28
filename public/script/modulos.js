@@ -1,57 +1,23 @@
 // Js para funcionalidades do Modulos.html 
 // Não deve incluir funcinalidades comum entre os sites, como navegação.
+//Este script configurará a interatividade das caixas de módulos na página home 
 
 
-const btnColor = document.getElementById("Colorbtn");
-const btnAcc = document.getElementById("Accbtn");
-const btnAcc3 = document.getElementById("Acc3btn");
-const btnEeprom = document.getElementById("Membtn");
+const modcolor = document.getElementById("img3");
+
 
 //Constantes
 
 
 
 
-btnColor.addEventListener('click', function(){
+modcolor.addEventListener('click', function(){
     
-    window.location.href="Color";
+    window.location.href="./public/html/Color.html";
     
     
     console.log("Carregada a página Color");
     
     
     
-});
-btnAcc.addEventListener('click', function(){
-    
-    window.location.href="Acc_graph";
-    
-    
-    console.log("Carregada a página Acelerômetro");
-    
-    
-    
-});
-
-btnAcc3.addEventListener('click', function(){
-
-    window.location.href="Acc_3d";
-
-
-console.log("Carregada a página Acelerômetro 3d");
-
-
-
-});
-
-
-btnEeprom.addEventListener('click', function(){
-    
-    window.location.href="Eeprom";
-
-
-console.log("Carregada a página EEprom");
-
-
-
 });
