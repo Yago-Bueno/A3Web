@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Home</title>
+        <link rel="stylesheet" href="./public/style/Base.css">
+        <link rel="stylesheet" href="./public/style/Index.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <h1> Módulo Inicial </h1>
+            <nav>
+                <ul>
+                    <li><span class="nav-btn" id="home_btn"> Home </span></li>
+                </ul>
+
+            </nav>
+        </header>
+
+        <main>
+            <section id="sobre">
+                <h2>Selecione o módulo para teste</h2>
+                <div class="conteudo">
+
+
+                    <div class="modulo">
+                        <h3>Esp32</h3>
+                        <p>
+
+                            A Placa ESP32 DevKitC é uma placa microcontroladora que embarca o módulo wifi e Bluetooth.
+                            Entre as principais funções da placa, vale destacar a conectividade, 
+                            possibilitando a criação de diversos projetos IoT realizando da troca de informações 
+                            a distância e com baixo consumo de energia.
+
+                        </p>
+                        <img src="./public/src/ESP.png" alt="Microcontrolador Esp32">
+                        <a href="https://curtocircuito.com.br/placa-esp32-devkitc-esp-wroom-32d.html">Esp32</a>
+
+
+                    </div>
+
+
+                    <div class="modulo">
+                        <h3>Protocolo I2C</h3>
+                        <p>
+
+                            I2C é um protocolo de comunicação serial que requer apenas duas linhas de sinal.
+                            Este protocolo foi criado com o propósito de padronizar (em outras palavras, facilitar) 
+                            a comunicação entre diferentes dispositivos.
+
+                        </p>
+                        <img src="./public/src/I2C.png" alt="Exemplo dp protocolo I2C">
+                        <br><br><br><br><br>
+                        <a href="https://victorvision.com.br/blog/i2c/">Introdução ao protocolo I2C</a>
+                    </div>
+
+
+                    <div class="modulo">
+                        <h3>Sensor de Cor</h3>
+                        <p>
+                            
+                            O módulo Sensor de Cor RGB é capaz de identificar cores com precisão, seu circuito é composto 
+                            por fotodiodos responsáveis por absorver a luminosidade, classificar a cor e transimitir via I2C, 
+                            produzindo então um espectro de luz de cor correspondente. 
+                        
+                        </p>
+                        <img src="./public/src/Sensor de Cor.png" alt="Sensor de cor">
+                        <br>
+                        <a href="https://curtocircuito.com.br/sensor-de-cor-rgb-com-filtro-ir-tcs34725.html">Sensor de cor</a>
+                    </div>
+
+
+                    <div class="modulo">
+                        <h3>Acelerômetro e Giroscópio - MPU6050</h3>
+                        <p>
+                            
+                            O Acelerômetro e Giroscópio 3 Eixos 6 DOF - MPU6050 é um módulo que contém em uma única 
+                            placa um acelerômetro e um giroscópio tipo MEMS. 
+                            São 6 graus de liberdade, 3 eixos para o giroscópio e 3 eixos para o acelerômetro.
+                        
+                        </p>
+                        <img class="img" src="./public/src/Acelerometro.png" alt="Módulo Acelerometro">
+                        <br><br>
+                        <a href="https://curtocircuito.com.br/modulo-acelerometro-3-eixos-mpu6050.html"> Módulo Acelerômetro</a>
+                    </div>
+
+
+                    <div class="modulo">
+                        <h3>Memória EEPROM - AT24C256</h3>
+                        <p>
+
+                            EEPROM (também escrita E PROM, e pronunciada "e-e-prom"), 
+                            sigla do inglês de Electrically-Erasable Programmable Read-Only Memory, 
+                            é um tipo de memória não-volátil usada em computadores e outros dispositivos 
+                            eletrônicos para armazenar pequenas quantidades de dados que precisam ser salvos.
+                        
+                        </p>
+                        <img src="./public/src/EEPROM.png" alt="Módulo de memoria EEPROM">
+                        <a href="https://curtocircuito.com.br/modulo-de-memoria-eeprom-i2c-at24c256.html"> Modulo EEPROM</a>
+                    </div>
+
+
+                    <div class="modNa">
+                        <h3>Módulo em desevolvimento</h3>
+                        <p>
+                            Teste do módulo em desenvolvimento...
+                        </p>
+                        <img src="./public/src/Loading.png" alt="Imagem de Loading">
+                    </div>
+                    <!-- Adicione mais módulos conforme necessário -->
+                </div>
+            </section>
+        </main>
+
+
+        <footer> IP: 000.000.000:4000 </footer>
+        <script src="./public/script/home-modulos.js"></script>
+        <script src="./public/script/nav.js"></script>
+
+    </body>
+
+</html>

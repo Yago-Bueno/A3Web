@@ -1,0 +1,102 @@
+/* Mantenha a ordem do html com quebra de linhas */
+/*
+    Cor
+
+    Posição
+
+    Atributos da "caixa"
+
+    Atributos de texto
+
+*/
+
+/* Css da página principal, somente altera as propriedades de utilização página */
+
+
+/* Definição de variáveis */
+:root {
+    --cor-primaria: #333;
+    --cor-secundaria: #fff;
+    --cor-fundo: #f5f5f5;
+}
+
+/* Reset de estilos */
+body, h1, h2, h3, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+a{
+
+    margin-top: 2rem;
+    position:relative;
+    left:25%
+
+
+
+
+}
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: var(--cor-fundo);
+}
+
+/* Estilos para a seção Sobre */
+#sobre {
+    padding: 20px;
+}
+
+#sobre h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.conteudo {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.modulo, .modNa {
+    flex: 0 1 300px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 3rem;
+}
+
+.modulo h3, .modNa h3 {
+    margin-bottom: 10px;
+}
+
+.modulo p, .modNa p{
+    margin-bottom: 15px;
+}
+
+.modulo img, .modNa img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 20px;
+}
+
+.modNa img{
+
+    position:relative;
+    margin: 20px;
+
+
+}
+
+
+.modNa:hover{
+transition: 0.4s;
+background-color: #3333335e;
+
+
+
+}
+

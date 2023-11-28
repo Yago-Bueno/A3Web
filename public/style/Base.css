@@ -1,0 +1,113 @@
+/* Mantenha a ordem do html com quebra de linhas */
+/*
+    Cor
+
+    Posição
+
+    Atributos da "caixa"
+
+    Atributos de texto
+
+*/
+
+/* Css para estrutura de header, body, footer. Elementos que mantem a identificação visua entre todas as páginas */
+
+:root {
+
+    --cor-bg: #f0f0f0;
+    --cor-btn: #f0f0f0;
+    --cor-sec: rgba(0, 183, 255, 0.527);
+    --cor-nav: #000
+
+}
+
+header {
+
+    background-color: var(--cor-sec);
+
+    padding-top: .2rem;
+    padding-bottom: .2rem;
+    width: 100%;
+
+    text-align: center;
+
+
+}
+
+
+nav ul {
+
+    list-style: none;
+    padding: .75rem;
+    width: 100%;
+
+}
+
+nav ul li {
+
+    display: inline;
+    margin-right: 70px;
+
+}   
+
+nav ul li .nav-btn {
+
+    border: solid black 1px;
+    background-color: white;
+    padding: 10px;
+    color: var(--cor-nav);
+    text-decoration:none;
+    font-size: medium;
+    font-weight: bold;
+    cursor: pointer;
+    position: relative;
+    left: 20px;
+
+}
+.nav-btn:hover{
+
+    background-color: #f0f0f0;
+    
+    transition: 0.1s
+
+}
+
+
+h1 {
+
+    margin-bottom: 1rem;
+}
+
+body {
+
+    background-color: var(--cor-bg);
+
+    margin: 0;
+    padding: 0;
+    height: 100%;
+
+    
+
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+
+}
+
+
+
+footer {
+
+    background-color: var(--cor-sec);
+
+    position: relative;
+    margin-top: 5rem;
+    bottom: 0;
+
+    padding: 1rem;
+    width: 100%;
+    display: inline-block;
+
+    text-align: center;
+    font-weight: 700;
+
+}

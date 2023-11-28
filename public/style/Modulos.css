@@ -1,0 +1,62 @@
+/* Mantenha a ordem do html com quebra de linhas */
+/*
+    Cor
+
+    Posição
+
+    Atributos da "caixa"
+
+    Atributos de texto
+
+*/
+
+
+.ctMod {
+
+    position: relative;
+    top: 5rem;
+
+    max-width: 50%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-trim: in-flow;
+    
+
+    columns: 10px 2;
+    row-gap: 1rem;
+    
+    /* Foi utilizado para agrupar os botões em uma grid 2x2*/
+
+    justify-content: space-evenly; 
+    /*Ajusta os espaços entre a grid*/
+
+
+}
+
+
+
+.modbtn {
+    
+    background-color: white;
+
+    padding: .8rem;
+
+    border: solid black 1px;
+    border-width: .2rem;
+    border-radius: 25px;
+
+    
+    text-align: center;
+    font-weight: bold;
+}
+
+
+
+.modbtn:hover {
+    background-color: #f0f0f0;
+    
+    transition: 0.4s;
+    cursor: pointer;
+
+}
+
