@@ -80,6 +80,16 @@ body {
 
 
 }
+h4{
+
+    position: relative;
+    left:0;
+    width: 100%;
+    text-align: center;
+    height: 30px;
+
+
+}
 
 .texto{
     position: relative;
